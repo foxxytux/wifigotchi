@@ -55,7 +55,7 @@ void setup() {
   lcd.init();
   lcd.backlight();
   lcd.clear();
-  lcd.print("Mini Pwnagotchi");
+  lcd.print("WiFiGotchi");
   lcd.setCursor(0, 1);
   lcd.print("Booting...");
   delay(1500);
@@ -65,7 +65,7 @@ void setup() {
   WiFi.disconnect();
   delay(100);
 
-  Serial.println("\n=== Mini Pwnagotchi ready ===");
+  Serial.println("\n=== WiFiGotchi ready ===");
 }
 
 void loop() {
